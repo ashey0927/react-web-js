@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+      }
+
+      /* li:first-child {
+        color: goldenrod;
+      } */
+
+      /* li:last-child {
+        color: cadetblue;
+      } */
+      /* random styling ko lagi use hunxa yo tala ko formula */
+      li:nth-child(2n+ 1) {
+        color: red;
+      }
+
+      button:hover {
+        background-color: black;
+        color: white;
+      }
+
+      h3:hover {
+        background-color: red;
+        color: aliceblue;
+      }
+
+      .af p::before {
+        content: 'HighlightBefore';
+        color: red;
+        font-size: 20px;
+      }
+
+      .af p::after {
+        content: 'HighlightAfter';
+        color: blue;
+        font-size: 20px;
+      }
+
+      /* li:nth-child(3) {
+        color: yellow;
+      } */
+    </style>
+  </head>
+
+  <body>
+
+    <div class="af">
+      <p>Lorem, ipsum.</p>
+    </div>
+
+
+
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <ul>
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Soluta ipsam facere optio alias!</li>
+      <li>Error autem odio eligendi? Odit!</li>
+      <li>Inventore magni possimus deserunt sapiente.</li>
+      <li>Dolores illo perferendis sequi commodi?</li>
+    </ul>
+    <button>Click Me</button>
+  </body>
+
+</html>
